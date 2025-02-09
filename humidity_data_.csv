@@ -1,0 +1,4 @@
+#!/bin/bash
+# Extract data for a specific COUNTRY
+grep "Rwanda" raw_data/satelite_temperature_data.csv | sort -t, -k3 -nr > analyzed_data/humidity_data_Rwanda.csv
+
